@@ -61,7 +61,7 @@ $(document).ready(function () {
             "</td><td id='dest'>" + dest +
             "</td><td id='freq'>" + freq +
             "</td><td id='next'>" + moment(nextTrain).format("HH:mm") +
-            "</td><td id='away'>" + minsAway + ' minutes until arrival' + "</td></tr>");
+            "</td><td id='away'>" + minsAway + ' minutes' + "</td></tr>");
     },
 
     );
